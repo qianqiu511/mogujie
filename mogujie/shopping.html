@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/shopping.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+	<script src='./js/rem.js'></script>
+</head>
+<body>
+	<div class="header">
+		<div class="arrow">&#xe607;</div>
+		<span>编辑 &#xe672;</span>
+		<p>购物车(1)</p>
+	</div>
+	<div class="shop">
+		<input type="checkbox" id="shopbox">
+		<p>包包大人潮流店</p>
+		<span>领券></span>
+	</div>
+	<div class="baby">
+		<input type="checkbox" id="babybox">
+		<img src="img/dts11.png" alt="">
+		<div class="details">
+			<p>杨幂宋茜同款夏新款1829印花大包铂金包通勤百搭手提包斜挎包</p>
+			<span>颜色:粉色;尺寸:中;</span>
+			<div class="price">
+				<span>&yen;78.00</span>
+				<i>&yen;111.43</i>
+			</div>
+			<b class="num">×1</b>
+		</div>
+	</div>
+	<div class="summary">
+		<input type="checkbox" id="sumbox">
+		<b>全选(0)</b>
+		<i>&yen;0.00</i>
+		<div class="sumRight">去结算</div>
+	</div>
+</body>
+</html>
+<script>
+	var shopbox = document.getElementById('shopbox');
+	var babybox = document.getElementById('babybox');
+	var sumbox = document.getElementById('sumbox');
+	var shopchecked = false;
+	var babychecked = false;
+	var sumchecked = false;
+	shopbox.onclick = function(){
+		if(shopchecked){
+			shopbox.style.backgroundPosition = '0 100%';
+			shopchecked = false;
+			babybox.style.backgroundPosition = '0 100%';
+			babychecked = false;
+		}else{
+			shopbox.style.backgroundPosition = '0 0';
+			shopchecked = true;
+			babybox.style.backgroundPosition = '0 0';
+			babychecked = true;
+		}
+	}
+	babybox.onclick = function(){
+		if(babychecked){
+			babybox.style.backgroundPosition = '0 100%';
+			babychecked = false;
+		}else{
+			babybox.style.backgroundPosition = '0 0';
+			babychecked = true;
+		}
+	}
+	sumbox.onclick = function(){
+		if(sumchecked){
+			sumbox.style.backgroundPosition = '0 100%';
+			sumchecked = false;
+			shopbox.style.backgroundPosition = '0 100%';
+			shopchecked = false;
+			babybox.style.backgroundPosition = '0 100%';
+			babychecked = false;
+		}else{
+			sumbox.style.backgroundPosition = '0 0';
+			sumchecked = true;
+			shopbox.style.backgroundPosition = '0 0';
+			shopchecked = true;
+			babybox.style.backgroundPosition = '0 0';
+			babychecked = true;
+		}
+	}
+</script>

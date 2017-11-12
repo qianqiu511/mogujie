@@ -1,0 +1,101 @@
+html, body {
+  height: 100%; }
+
+html, body, div, p, img, b, span {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  width: 100%;
+  height: 1.9rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #d5d5d8;
+  padding: 0.6rem 0.7rem; }
+  .header .arrow {
+    font-family: 'iconfont';
+    width: 0.65rem;
+    height: 0.65rem;
+    color: #939393;
+    font-size: 0.65rem;
+    float: left; }
+  .header p {
+    color: #939393;
+    font-size: 0.65rem;
+    text-align: center;
+    color: #5e5e5e;
+    font-weight: bold;
+    padding-left: 2.5rem; }
+  .header span {
+    display: block;
+    float: right;
+    color: #5e5e5e;
+    font-size: 0.6rem; }
+
+.name {
+  width: 100%;
+  font-size: 0.6rem;
+  color: #999;
+  text-align: center;
+  margin-top: 2rem; }
+
+.account, .code {
+  width: 14.7rem;
+  margin: 0.5rem auto;
+  border-bottom: 1px solid #ededed; }
+  .account input, .code input {
+    width: 100%;
+    height: 1.6rem;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 1rem; }
+  .account input::-webkit-input-placeholder, .code input::-webkit-input-placeholder {
+    color: #EDEDED; }
+
+.codename {
+  width: 100%;
+  font-size: 0.6rem;
+  color: #666;
+  text-align: center;
+  margin-top: 0.9rem; }
+
+.code {
+  position: relative; }
+  .code span {
+    width: 3.5rem;
+    display: block;
+    font-size: 0.7rem;
+    color: #ff6885;
+    position: absolute;
+    right: 0;
+    bottom: -1px; }
+
+button {
+  display: block;
+  width: 14.7rem;
+  margin: 1rem auto;
+  outline: none;
+  border: none;
+  font-size: 0.7rem;
+  color: #fff;
+  text-align: center;
+  line-height: 2.1rem;
+  background: #ff1877; }
+
+.choice {
+  width: 14.7rem;
+  margin: 0.8rem auto; }
+  .choice .free {
+    font-size: 0.6rem;
+    color: #999;
+    float: left; }
+  .choice .reg {
+    font-size: 0.6rem;
+    color: #ff56a2;
+    float: right; }
+
+img {
+  display: block;
+  margin: 4rem auto; }
+
+/*# sourceMappingURL=login.css.map */

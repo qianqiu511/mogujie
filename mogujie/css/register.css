@@ -1,0 +1,127 @@
+html, body {
+  height: 100%; }
+
+html, body, div, p, img, ul, li, b, span, h3, i, em {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  width: 100%;
+  height: 1.9rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #d5d5d8;
+  padding: 0.6rem 0.7rem; }
+  .header .arrow {
+    font-family: 'iconfont';
+    width: 0.65rem;
+    height: 0.65rem;
+    color: #939393;
+    font-size: 0.65rem;
+    float: left; }
+  .header p {
+    color: #939393;
+    font-size: 0.65rem;
+    text-align: center;
+    color: #5e5e5e;
+    font-weight: bold; }
+
+.area {
+  width: 100%;
+  font-size: 0.6rem;
+  color: #999;
+  text-align: center;
+  margin-top: 1.4rem; }
+
+.China {
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem; }
+  .China b {
+    font-size: 1.05rem;
+    color: #333;
+    font-weight: normal; }
+  .China i {
+    font-size: 0.8rem;
+    color: #999;
+    font-style: normal; }
+  .China span {
+    display: block;
+    float: right;
+    font-size: 0.8rem;
+    color: #999;
+    font-family: 'iconfont';
+    margin-top: 0.2rem; }
+
+.phone {
+  width: 100%;
+  font-size: 0.6rem;
+  color: #999;
+  text-align: center;
+  margin-top: 0.8rem; }
+
+.number, .code {
+  width: 14.7rem;
+  margin: 0.5rem auto;
+  border-bottom: 1px solid #ededed; }
+  .number input, .code input {
+    width: 100%;
+    height: 1.6rem;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 1rem; }
+  .number input::-webkit-input-placeholder, .code input::-webkit-input-placeholder {
+    color: #EDEDED; }
+
+.codename {
+  width: 100%;
+  font-size: 0.6rem;
+  color: #666;
+  text-align: center;
+  margin-top: 0.9rem; }
+
+.code {
+  position: relative; }
+  .code input {
+    display: block;
+    width: 7.5rem;
+    margin: 0 auto; }
+  .code span {
+    width: 3.5rem;
+    display: block;
+    font-size: 0.7rem;
+    color: #ff6885;
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+    background: #fff; }
+
+button {
+  display: block;
+  width: 14.7rem;
+  margin: 1rem auto;
+  outline: none;
+  border: none;
+  font-size: 0.7rem;
+  color: #fff;
+  text-align: center;
+  line-height: 2.1rem;
+  background: #ff1877; }
+
+.choice {
+  width: 14.7rem;
+  margin: 0.8rem auto; }
+  .choice .pwd {
+    font-size: 0.6rem;
+    color: #ff56a2;
+    float: left; }
+  .choice .free {
+    font-size: 0.6rem;
+    color: #ff56a2;
+    float: right; }
+
+img {
+  display: block;
+  margin: 4rem auto; }
+
+/*# sourceMappingURL=register.css.map */

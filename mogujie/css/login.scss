@@ -1,0 +1,112 @@
+@function num($val){
+	@return $val / 20;
+}
+html,body{
+	height:100%;
+}
+html,body,div,p,img,b,span{
+	margin:0;
+	padding:0;
+}
+.header{
+	width:100%;
+	height:num(38rem);
+	box-sizing:border-box;
+	border-bottom:1px solid #d5d5d8;
+	padding:num(12rem) num(14rem);
+	.arrow{
+		font-family:'iconfont';
+		width:num(13rem);
+		height:num(13rem);
+		color:#939393;
+		font-size:num(13rem);
+		float:left;
+	}
+	p{
+		color:#939393;
+		font-size:num(13rem);
+		text-align:center;
+		color:#5e5e5e;
+		font-weight:bold;
+		padding-left:num(50rem);
+	}
+	span{
+		display:block;
+		float:right;
+		color:#5e5e5e;
+		font-size:num(12rem);
+	}
+}
+.name{
+	width:100%;
+	font-size:num(12rem);
+	color:#999;
+	text-align:center;
+	margin-top:num(40rem);
+}
+.account{
+	width:num(294rem);
+	margin:num(10rem) auto;
+	border-bottom:1px solid #ededed;
+	input{
+		width:100%;
+		height:num(32rem);
+		outline:none;
+		border:none;
+		text-align:center;
+		font-size:num(20rem);
+	}
+	input::-webkit-input-placeholder{
+		color:#EDEDED;
+	}
+}
+.codename{
+	width:100%;
+	font-size:num(12rem);
+	color:#666;
+	text-align:center;
+	margin-top:num(18rem);
+}
+.code{
+	@extend .account;
+	position:relative;
+	span{
+		width:num(70rem);
+		display:block;
+		font-size:num(14rem);
+		color:#ff6885;
+		position:absolute;
+		right:0;
+		bottom:-1px;
+	}
+}
+button{
+	display:block;
+	width:num(294rem);
+	margin:num(20rem) auto;
+	outline:none;
+	border:none;
+	font-size:num(14rem);
+	color:#fff;
+	text-align:center;
+	line-height:num(42rem);
+	background:#ff1877;
+}
+.choice{
+	width:num(294rem);
+	margin:num(16rem) auto;
+	.free{
+		font-size:num(12rem);
+		color:#999;
+		float:left;
+	}
+	.reg{
+		font-size:num(12rem);
+		color:#ff56a2;
+		float:right;
+	}
+}
+img{
+	display:block;
+	margin:num(80rem) auto;
+}

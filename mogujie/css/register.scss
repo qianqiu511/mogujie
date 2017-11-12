@@ -1,0 +1,141 @@
+@function num($val){
+	@return $val / 20;
+}
+html,body{
+	height:100%;
+}
+html,body,div,p,img,ul,li,b,span,h3,i,em{
+	margin:0;
+	padding:0;
+}
+.header{
+	width:100%;
+	height:num(38rem);
+	box-sizing:border-box;
+	border-bottom:1px solid #d5d5d8;
+	padding:num(12rem) num(14rem);
+	.arrow{
+		font-family:'iconfont';
+		width:num(13rem);
+		height:num(13rem);
+		color:#939393;
+		font-size:num(13rem);
+		float:left;
+	}
+	p{
+		color:#939393;
+		font-size:num(13rem);
+		text-align:center;
+		color:#5e5e5e;
+		font-weight:bold;
+	}
+}
+.area{
+	width:100%;
+	font-size:num(12rem);
+	color:#999;
+	text-align:center;
+	margin-top:num(28rem);
+}
+.China{
+	width:100%;
+	text-align:center;
+	margin-top:num(20rem);
+	b{
+		font-size:num(21rem);
+		color:#333;
+		font-weight:normal;
+	}
+	i{
+		font-size:num(16rem);
+		color:#999;
+		font-style:normal;
+	}
+	span{
+		display:block;
+		float:right;
+		font-size:num(16rem);
+		color:#999;
+		font-family:'iconfont';
+		margin-top:num(4rem);
+	}
+}
+.phone{
+	width:100%;
+	font-size:num(12rem);
+	color:#999;
+	text-align:center;
+	margin-top:num(16rem);
+}
+.number{
+	width:num(294rem);
+	margin:num(10rem) auto;
+	border-bottom:1px solid #ededed;
+	input{
+		width:100%;
+		height:num(32rem);
+		outline:none;
+		border:none;
+		text-align:center;
+		font-size:num(20rem);
+	}
+	input::-webkit-input-placeholder{
+		color:#EDEDED;
+	}
+}
+.codename{
+	width:100%;
+	font-size:num(12rem);
+	color:#666;
+	text-align:center;
+	margin-top:num(18rem);
+}
+.code{
+	@extend .number;
+	position:relative;
+	input{
+		display:block;
+		width:num(150rem);
+		margin:0 auto;
+	}
+	span{
+		width:num(70rem);
+		display:block;
+		font-size:num(14rem);
+		color:#ff6885;
+		position:absolute;
+		right:0;
+		bottom:-1px;
+		background:#fff;
+	}
+}
+button{
+	display:block;
+	width:num(294rem);
+	margin:num(20rem) auto;
+	outline:none;
+	border:none;
+	font-size:num(14rem);
+	color:#fff;
+	text-align:center;
+	line-height:num(42rem);
+	background:#ff1877;
+}
+.choice{
+	width:num(294rem);
+	margin:num(16rem) auto;
+	.pwd{
+		font-size:num(12rem);
+		color:#ff56a2;
+		float:left;
+	}
+	.free{
+		font-size:num(12rem);
+		color:#ff56a2;
+		float:right;
+	}
+}
+img{
+	display:block;
+	margin:num(80rem) auto;
+}

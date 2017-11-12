@@ -1,0 +1,169 @@
+html, body {
+  height: 100%; }
+
+html, body, div, p, img, b, span {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #f6f6f6; }
+
+input[type=checkbox] {
+  -webkit-appearance: none;
+  -webkit-user-select: text; }
+
+.header {
+  width: 100%;
+  height: 1.9rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #d5d5d8;
+  padding: 0.6rem 0.7rem;
+  background: #fff;
+  margin-bottom: 0.65rem; }
+  .header .arrow {
+    font-family: 'iconfont';
+    width: 0.65rem;
+    height: 0.65rem;
+    color: #939393;
+    font-size: 0.65rem;
+    float: left; }
+  .header p {
+    color: #939393;
+    font-size: 0.65rem;
+    text-align: center;
+    color: #5e5e5e;
+    padding-left: 2.5rem; }
+  .header span {
+    display: block;
+    float: right;
+    color: #5e5e5e;
+    font-size: 0.6rem;
+    font-family: 'iconfont'; }
+
+.shop {
+  width: 100%;
+  height: 1.7rem;
+  box-sizing: border-box;
+  padding: 0.4rem 0.65rem 0.35rem;
+  background: #fff; }
+  .shop input {
+    width: 0.9rem;
+    height: 0.9rem;
+    background: url(../img/checkbox.png) 0 100% no-repeat;
+    background-size: 100% auto;
+    float: left;
+    outline: none; }
+  .shop p {
+    font-size: 0.6rem;
+    color: #5e5e5e;
+    margin-left: 0.4rem;
+    float: left;
+    padding-top: 0.1rem; }
+  .shop span {
+    display: block;
+    font-size: 0.6rem;
+    color: #5e5e5e;
+    float: right; }
+
+.baby {
+  width: 100%;
+  height: 5.45rem;
+  box-sizing: border-box;
+  padding: 0.65rem;
+  background: #fff; }
+  .baby input {
+    width: 0.9rem;
+    height: 0.9rem;
+    background: url(../img/checkbox.png) 0 100% no-repeat;
+    background-size: 100% auto;
+    float: left;
+    outline: none;
+    margin-top: 1rem; }
+  .baby img {
+    display: block;
+    width: 2.75rem;
+    height: 4rem;
+    margin-left: 0.75rem;
+    float: left; }
+  .baby .details {
+    width: 9.5rem;
+    height: 4rem;
+    float: right; }
+    .baby .details p {
+      font-size: 0.6rem;
+      color: #5e5e5e; }
+    .baby .details span {
+      display: block;
+      font-size: 0.6rem;
+      color: #999;
+      margin-bottom: 0.5rem; }
+    .baby .details .price {
+      float: left; }
+      .baby .details .price span {
+        display: inline-block;
+        font-size: 0.6rem;
+        color: #333; }
+      .baby .details .price i {
+        display: inline-block;
+        font-size: 0.45rem;
+        color: #999;
+        font-style: normal;
+        text-decoration: line-through; }
+    .baby .details b {
+      display: block;
+      float: right;
+      font-size: 0.45rem;
+      color: #b299b2;
+      font-weight: normal;
+      padding-left: 4rem;
+      margin-top: 0.6rem; }
+
+.summary {
+  width: 100%;
+  height: 2.15rem;
+  box-sizing: border-box;
+  border-top: 0.05rem solid #d8d8d8;
+  padding: 0.4rem 0.65rem 0.25rem;
+  background: #fff;
+  position: fixed;
+  left: 0;
+  bottom: 0; }
+  .summary input {
+    width: 0.9rem;
+    height: 0.9rem;
+    background: url(../img/checkbox.png) 0 100% no-repeat;
+    background-size: 100% auto;
+    display: block;
+    float: left;
+    margin-top: 0.3rem;
+    outline: none;
+    vertical-align: middle; }
+  .summary b {
+    font-size: 0.6rem;
+    color: #5e5e5e;
+    font-weight: normal;
+    display: block;
+    float: left;
+    margin-left: 0.4rem;
+    margin-top: 0.35rem;
+    vertical-align: middle; }
+  .summary i {
+    font-size: 0.5rem;
+    color: #ee4566;
+    font-style: normal;
+    display: block;
+    float: left;
+    margin-left: 0.4rem;
+    margin-top: 0.35rem;
+    vertical-align: top; }
+  .summary .sumRight {
+    width: 4.25rem;
+    height: 1.45rem;
+    border-radius: 0.15rem;
+    background: #ff5777;
+    font-size: 0.7rem;
+    text-align: center;
+    line-height: 1.45rem;
+    float: right; }
+
+/*# sourceMappingURL=shopping.css.map */

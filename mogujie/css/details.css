@@ -1,0 +1,554 @@
+html, body {
+  height: 100%; }
+
+html, body, div, p, img, ul, li, b, span, h3, i, em {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #F6F6F6; }
+
+a {
+  text-decoration: none; }
+
+.header {
+  width: 100%;
+  height: 27.25rem;
+  position: relative;
+  background: #fff; }
+  .header img {
+    display: block;
+    width: 100%;
+    height: 19.2rem; }
+  .header p {
+    width: 14.8rem;
+    margin: 0.6rem;
+    font-size: 0.7rem;
+    font-weight: normal;
+    line-height: 0.9rem;
+    color: #424242; }
+  .header .price {
+    width: 14.8rem;
+    margin: 0.6rem;
+    height: 1.5rem; }
+    .header .price i {
+      font-style: normal;
+      font-size: 0.4rem;
+      color: #333;
+      display: block;
+      float: left; }
+    .header .price b {
+      font-size: 1.1rem;
+      text-align: center;
+      color: #333;
+      line-height: 90%;
+      display: block;
+      float: left; }
+    .header .price .discount {
+      height: 1.5rem;
+      float: left; }
+      .header .price .discount em {
+        display: block;
+        font-style: normal;
+        text-decoration: line-through;
+        font-size: 0.5rem;
+        color: #999; }
+      .header .price .discount span {
+        display: block;
+        height: 0.7rem;
+        width: 1.25rem;
+        text-align: center;
+        line-height: 0.7rem;
+        font-size: 0.6rem;
+        color: #ff2255;
+        background: #ffe8ee; }
+  .header .free {
+    font-size: 0.6rem;
+    color: #999;
+    padding-bottom: 0.4rem;
+    margin: 0.8rem auto 0 0.6rem;
+    border-bottom: 1px solid #eee; }
+
+.navtwo {
+  height: 7.5rem;
+  position: fixed;
+  bottom: 3rem;
+  right: 0;
+  transition: bottom 1s;
+  z-index: 10; }
+  .navtwo #fast {
+    width: 2.5rem;
+    height: 2.5rem;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background: #4d4d4d;
+    color: #fff;
+    padding: 0.5rem 0.65rem 0.7rem 0.65rem;
+    position: absolute;
+    bottom: 3.5rem;
+    right: 0.5rem; }
+    .navtwo #fast span {
+      display: block;
+      font-size: 0.6rem;
+      color: #fff; }
+  .navtwo #sl {
+    width: 2.5rem;
+    height: 2.5rem;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background: #4d4d4d;
+    color: #fff;
+    padding: 0.5rem 0.65rem 0.7rem 0.65rem;
+    position: absolute;
+    bottom: 0;
+    right: 0.5rem;
+    background: #4d4d4d url(../img/dts-sl.png) 0.85rem 0.5rem no-repeat;
+    background-size: 0.7rem 0.7rem; }
+    .navtwo #sl span {
+      display: block;
+      font-size: 0.6rem;
+      color: #fff;
+      padding-top: 0.7rem; }
+
+#zd {
+  width: 2.5rem;
+  height: 2.5rem;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background: #4d4d4d;
+  color: #fff;
+  padding: 0.5rem 0.65rem 0.7rem 0.65rem;
+  position: fixed;
+  bottom: 3rem;
+  right: 0.5rem;
+  z-index: 9;
+  transition: 1s;
+  background: #4d4d4d url(../img/dts-zd.png) 0.85rem 0.5rem no-repeat;
+  background-size: 0.7rem 0.7rem;
+  opacity: 0;
+  filter: alpha(opacity=0); }
+  #zd span {
+    display: block;
+    font-size: 0.6rem;
+    color: #fff;
+    padding-top: 0.7rem; }
+
+.pay {
+  height: 1.65rem;
+  width: 14.8rem;
+  margin: 0 auto; }
+  .pay i {
+    font-family: 'iconfont';
+    font-style: normal;
+    font-size: 0.6rem;
+    color: #666;
+    line-height: 1.65rem; }
+  .pay span {
+    font-size: 0.6rem;
+    color: #666;
+    line-height: 1.65rem;
+    padding-right: 0.3rem; }
+
+.coupon {
+  clear: both;
+  margin-top: 0.4rem;
+  width: 100%;
+  height: 7.25rem;
+  box-sizing: border-box;
+  padding: 0.6rem 0.7rem;
+  background: #fff; }
+  .coupon p {
+    font-size: 0.6rem;
+    color: #999; }
+  .coupon .items {
+    height: 1.85rem;
+    margin-right: 0.15rem;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee; }
+    .coupon .items .item {
+      display: inline-block;
+      height: 1.85rem;
+      width: 3.75rem;
+      border-radius: 1px;
+      background: url(../img/discount.png); }
+      .coupon .items .item p {
+        width: 100%;
+        text-align: center;
+        height: 0.75rem;
+        color: #fff; }
+        .coupon .items .item p i {
+          font-style: normal;
+          font-size: 0.45rem;
+          color: #fff;
+          vertical-align: text-top; }
+        .coupon .items .item p span {
+          font-size: 0.75rem;
+          color: #fff; }
+  .coupon .fullcut {
+    height: 1.6rem;
+    box-sizing: border-box;
+    margin: 0.75rem 0;
+    overflow: hidden;
+    position: relative; }
+    .coupon .fullcut .full {
+      height: 0.7rem;
+      margin-bottom: 0.2rem; }
+      .coupon .fullcut .full p {
+        width: 1.5rem;
+        box-sizing: border-box;
+        font-size: 0.5rem;
+        background: #f76d1a;
+        text-align: center;
+        color: #fff;
+        float: left; }
+      .coupon .fullcut .full span {
+        display: block;
+        margin-left: 0.2rem;
+        float: left;
+        font-size: 0.55rem;
+        color: #999;
+        line-height: 0.7rem; }
+    .coupon .fullcut .detail {
+      height: 0.75rem;
+      position: absolute;
+      top: 0.4rem;
+      right: 0;
+      font-size: 0.6rem;
+      color: #999;
+      z-index: 0; }
+
+.color {
+  height: 1.9rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.6rem;
+  margin: 0.45rem 0;
+  background: #fff; }
+  .color p {
+    font-size: 0.6rem;
+    float: left;
+    color: #666; }
+  .color span {
+    display: block;
+    font-size: 0.6rem;
+    color: #666;
+    float: right; }
+
+.evaluate {
+  height: 1.7rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem 0.6rem;
+  margin-top: 0.45rem;
+  background: #fff; }
+  .evaluate p {
+    font-size: 0.6rem;
+    color: #666;
+    float: left; }
+  .evaluate b {
+    font-size: 0.6rem;
+    color: #666;
+    font-weight: normal;
+    float: right; }
+
+.summary {
+  width: 100%;
+  height: 2.4rem;
+  box-sizing: border-box;
+  padding: 0 0.6rem;
+  background: #fff;
+  overflow: hidden; }
+  .summary .summary-d {
+    display: inline-block;
+    height: 1rem;
+    background: #ffe8ee;
+    padding: 0 0.2rem;
+    margin-right: 0.2rem;
+    margin-bottom: 0.2rem; }
+    .summary .summary-d span {
+      font-size: 0.6rem;
+      color: #ff78c7;
+      text-align: center;
+      line-height: 1rem;
+      color: #ff2255;
+      vertical-align: top; }
+
+.user {
+  width: 100%;
+  background: #fff;
+  margin-bottom: 0.45rem; }
+  .user .user1, .user .user2 {
+    width: 14.8rem;
+    height: 5.25rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-top: 0.65rem;
+    padding-bottom: 1.2rem;
+    border-bottom: 1px solid #eee; }
+    .user .user1 img, .user .user2 img {
+      display: block;
+      height: 1.35rem;
+      width: 1.35rem;
+      float: left; }
+    .user .user1 span, .user .user2 span {
+      display: block;
+      font-size: 0.5rem;
+      color: #424242;
+      float: left;
+      margin-top: 0.5rem;
+      margin-left: 0.45rem; }
+    .user .user1 p, .user .user2 p {
+      clear: both;
+      font-size: 0.6rem;
+      color: #727272;
+      padding-top: 0.6rem;
+      padding-bottom: 0.4rem; }
+    .user .user1 i, .user .user2 i {
+      display: block;
+      font-style: normal;
+      font-size: 0.6rem;
+      color: #999; }
+  .user .user2 {
+    border-bottom: 0px solid #eee; }
+
+.shop {
+  width: 100%;
+  height: 6.75rem;
+  box-sizing: border-box;
+  background: #fff;
+  padding: 0.85rem 0.6rem 0.7rem;
+  margin-bottom: 0.45rem; }
+  .shop img {
+    display: block;
+    width: 2.05rem;
+    height: 2.05rem;
+    float: left; }
+  .shop .shopname {
+    height: 1.25rem;
+    height: 2.05rem;
+    float: left;
+    margin-left: 0.4rem;
+    margin-top: 0.4rem; }
+    .shop .shopname h3 {
+      font-size: 0.6rem;
+      color: #333; }
+    .shop .shopname span {
+      font-family: "iconfont";
+      display: block;
+      font-size: 0.4rem;
+      color: #ff2255;
+      line-height: 0.6rem; }
+  .shop .enter {
+    width: 2.9rem;
+    height: 1.3rem;
+    box-sizing: border-box;
+    float: right;
+    border: 1px solid #ff5777;
+    padding: 0.25rem 0.5rem 0.35rem;
+    font-size: 0.6rem;
+    color: #ff5777; }
+  .shop .collection {
+    clear: both;
+    width: 14.8rem;
+    height: 2.7rem; }
+    .shop .collection .collectL, .shop .collection .collectC {
+      width: 4.85rem;
+      height: 2.7rem;
+      float: left;
+      border-right: 1px solid #e5e5e5; }
+      .shop .collection .collectL p, .shop .collection .collectC p {
+        font-size: 0.6rem;
+        color: #333;
+        text-align: center;
+        padding-top: 0.2rem; }
+      .shop .collection .collectL b, .shop .collection .collectC b {
+        display: block;
+        font-size: 0.6rem;
+        color: #999;
+        font-weight: normal;
+        text-align: center;
+        padding-top: 0.2rem; }
+    .shop .collection .collectR {
+      width: 4.85rem;
+      height: 2.7rem;
+      box-sizing: border-box;
+      padding-left: 0.5rem;
+      float: right; }
+      .shop .collection .collectR div {
+        height: 0.85rem; }
+        .shop .collection .collectR div span {
+          font-size: 0.6rem;
+          color: #999;
+          vertical-align: top; }
+        .shop .collection .collectR div i {
+          font-size: 0.6rem;
+          color: #ff5777;
+          font-style: normal;
+          vertical-align: top; }
+
+.detailsTit {
+  width: 100%;
+  height: 1.9rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 0.5rem 0;
+  background: #fff; }
+  .detailsTit span {
+    vertical-align: top;
+    font-size: 0.6rem;
+    color: #333;
+    padding: 0 1.35rem; }
+
+.effect {
+  height: 5.4rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.6rem 0.6rem 0; }
+  .effect .effect-t {
+    width: 4rem;
+    height: 0.5rem;
+    background: url(../img/bg.png) 100% 0 no-repeat; }
+  .effect .effect-c {
+    width: 14.8rem;
+    height: 2.9rem;
+    box-sizing: border-box;
+    font-size: 0.6rem;
+    color: #727272;
+    padding: 0.5rem 0; }
+  .effect .effect-b {
+    float: right;
+    width: 4rem;
+    height: 0.5rem;
+    background: url(../img/bg.png) 0 0 no-repeat; }
+  .effect p {
+    clear: both;
+    font-size: 0.6rem;
+    color: #303030; }
+
+.pic {
+  width: 100%; }
+  .pic img {
+    display: block;
+    width: 100%; }
+  .pic p {
+    width: 100%;
+    height: 1.5rem;
+    box-sizing: border-box;
+    padding-left: 0.6rem;
+    line-height: 1.5rem;
+    font-size: 0.6rem;
+    color: #303030; }
+  .pic .intro {
+    height: 7.7rem; }
+    .pic .intro p {
+      width: 100%;
+      height: 1.5rem;
+      box-sizing: border-box;
+      padding-left: 0.6rem;
+      line-height: 1.5rem;
+      font-size: 0.6rem;
+      color: #303030; }
+    .pic .intro .intro-c {
+      padding: 0 0.6rem;
+      text-indent: 0.65rem;
+      vertical-align: top;
+      line-height: 1.1rem;
+      font-size: 0.6rem;
+      color: #727272; }
+    .pic .intro img {
+      display: block;
+      width: 100%; }
+  .pic .parameter {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.6rem;
+    background: #fff; }
+    .pic .parameter table {
+      width: 100%;
+      font-size: 0.6rem; }
+      .pic .parameter table tr {
+        width: 100%;
+        line-height: 1.8rem;
+        color: #666; }
+        .pic .parameter table tr td {
+          border-bottom: 1px solid #f4f4f4; }
+      .pic .parameter table .col {
+        color: #ee4897; }
+        .pic .parameter table .col td:nth-child(1) {
+          max-width: 2.25rem;
+          color: #666; }
+      .pic .parameter table .col2 {
+        line-height: 1.35rem;
+        color: #ee4897; }
+        .pic .parameter table .col2 td:nth-child(1) {
+          max-width: 2.25rem;
+          color: #666; }
+
+.recommend {
+  width: 100%;
+  height: 37.25rem;
+  padding: 0.6rem;
+  background: #fff;
+  padding-bottom: 2rem; }
+  .recommend .re-item {
+    width: 4.75rem;
+    margin-right: 0.3rem;
+    margin-bottom: 0.6rem;
+    float: left; }
+  .recommend img {
+    display: block;
+    width: 100%; }
+  .recommend p {
+    font-size: 0.6rem;
+    color: #5e5e5e;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #5e5e5e; }
+  .recommend b {
+    font-size: 0.5rem;
+    color: #5e5e5e;
+    font-weight: normal; }
+  .recommend i {
+    font-family: 'iconfont';
+    font-style: normal;
+    font-size: 0.5rem;
+    color: #5e5e5e; }
+
+.footbar {
+  width: 100%;
+  height: 2rem;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0; }
+  .footbar .content-icons {
+    width: 2.5rem;
+    height: 100%;
+    float: left; }
+    .footbar .content-icons span {
+      display: block;
+      text-align: center;
+      line-height: 0.9rem;
+      font-size: 0.6rem;
+      font-family: 'iconfont';
+      border-right: 1px solid #F6F6F6; }
+    .footbar .content-icons span:nth-child(1) {
+      font-size: 0.9rem;
+      line-height: 1.1rem; }
+  .footbar .content-btns {
+    width: 5.5rem;
+    height: 100%;
+    float: left;
+    font-size: 0.6rem;
+    text-align: center;
+    line-height: 2rem;
+    background: #FFE6E8;
+    color: #FF7791; }
+  .footbar #buy {
+    background: #FF5579;
+    color: #fff; }
+
+/*# sourceMappingURL=details.css.map */
